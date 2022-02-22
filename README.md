@@ -1,3 +1,3 @@
 # AlkemyChallenge
 
-Ola ke ase
+Challenge de Alkemy para Data Analytics + Python.
