@@ -52,6 +52,9 @@ class Registros(Base):
     fuente = Column(VARCHAR())
     provincia_y_categoria = Column(String())
 
+    def __str__(self):
+        return self.categoria
+
 
 Session = sessionmaker(engine)
 session = Session()
